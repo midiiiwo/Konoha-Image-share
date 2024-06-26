@@ -17,7 +17,7 @@ const SignIn = () => {
   const router = useRouter();
 
   const submit = async () => {
-    console.log("Form state before validation:", form); // Debugging line
+     // Debugging line
 
     // Check if all required fields are filled in
     if (!form.email || !form.password) {

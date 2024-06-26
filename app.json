@@ -14,8 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "package":"com.konoha.konoha"
-      
+      "package": "com.konoha.konoha"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +22,6 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.konoha.konoha"
-      
     },
     "web": {
       "bundler": "metro",
@@ -35,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "154917b4-4287-4a47-a1c9-988046a906cc"
+      }
     }
   }
 }
